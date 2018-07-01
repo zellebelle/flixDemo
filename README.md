@@ -1,19 +1,17 @@
-# flixDemo
+# Project 2 - *FLIX*
 
-# Project 2 - *Name of App Here*
+**FLIX** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-**Name of your app** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
-
-Time spent: **X** hours spent in total
+Time spent: **22** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-- [ ] User can view a list of movies currently playing in theaters from The Movie Database.
-- [ ] Poster images are loaded using the UIImageView category in the AFNetworking library.
-- [ ] User sees a loading state while waiting for the movies API.
-- [ ] User can pull to refresh the movie list.
+- [X ] User can view a list of movies currently playing in theaters from The Movie Database.
+- [X ] Poster images are loaded using the UIImageView category in the AFNetworking library.
+- [ X] User sees a loading state while waiting for the movies API.
+- [X ] User can pull to refresh the movie list.
 
 The following **optional** features are implemented:
 
@@ -33,24 +31,30 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. Adding option for users to create an account on the app
+2. Adding an area for people to leave comments
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+User opens app to splash screen: https://imgur.com/a/rdqDazu
+User scrolls down view to see movie info: https://imgur.com/a/U5ErJty
+User pulls refresh button: https://imgur.com/a/dsRtcry
+User clicks on movie for more details: https://imgur.com/a/syboe1D
+User sees loading state while waiting for movie to load: https://imgur.com/a/1IvvjIY
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges:
+
+Coding in Objective-C without much knowledge of syntax is pretty tough. Dealing with tedious placement in Xcode Main Storyboard.
+
 
 ## Credits
-
-List an 3rd party libraries, icons, graphics, or other assets you used in your app.
 
 - [AFNetworking](https://github.com/AFNetworking/AFNetworking) - networking task library
 
